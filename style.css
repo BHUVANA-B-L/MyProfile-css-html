@@ -1,0 +1,146 @@
+h1{
+    font-family: "Dancing Script", cursive;
+    color: purple;
+    text-align: center;
+    font-size: 80px;
+
+}
+h2{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+body{
+    margin: 0;
+    
+}
+.container1{
+    background-color: #E6C3C9;
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    margin: 50px;
+}
+.container2>img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-left: 45%;
+
+}
+.container2>h3{
+    text-align: center;
+    color: purple;
+    font-size:30px ;
+}
+.container2>p{
+    text-align: center;
+}
+.container3>hr{
+    border: dotted;
+    width: 20px;
+    color: pink;
+}
+.headings>h3{
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+}
+.container4{
+    margin-left: 250px;
+    display: inline-block
+}
+.container4>img{
+    float:left
+    
+}
+.container4>h4{
+    font-size: 20px;
+}
+.container4>p{
+    width: 600px;
+     color:rgb(91, 87, 90);
+}
+.container5{
+    margin-left: 250px;
+    display:inline-block;
+    margin-top: 10px;
+}
+.container5>img{
+    float:left
+    
+}
+.container5>h4{
+    font-size: 20px;
+}
+.container5>p{
+    width: 600px;
+     color:rgb(91, 87, 90);
+}
+     
+.container6{
+    text-align: center;
+}
+.container6>h3{
+    font-size: 30px;
+    color: purple;
+}
+.container6>h4{
+    font-size: 20px;
+    color: purple;
+}
+.container6>button{
+    color: white;
+    background-color: rgb(188, 101, 115);
+    border-radius: 10%;
+    border: none;
+    padding: 8px;
+}
+.container7{
+    margin-top: 50px;
+    background-color: #E6C3C9;
+    padding: 30px;
+
+}
+.container7 .links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.container7 p{
+    text-align: center;
+    color:white;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+    body {
+        width: 100%;
+    }
+    .container1 {
+        background-color: #E6C3C9; /* '100%' was invalid here */
+        width: 100%;
+    }
+    .container2 > img {
+        margin-left: 50%;
+    }
+    .container4 {
+        width: 100%;
+        margin: 0;
+    }
+    .container4 > img {
+        width: 100%;
+        margin: 0;
+    }
+    .container5{
+        width: 100%;
+        margin: 0;
+    }
+    .container5> img{
+        width: 100%;
+        margin: 0;
+    }
+}
